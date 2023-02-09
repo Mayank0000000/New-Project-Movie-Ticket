@@ -1,0 +1,136 @@
+body {
+  font-family: 'Lato', sans-serif;
+  /* background-color: #242333; */
+  /* background: url(myke-simon-atsUqIm3wxo-unsplash.jpg), linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, 0.9)); */
+  /* background: linear-gradient(rgba(0, 18, 50, 0.84), rgba(0, 0, 0, 0.95)), url(./lloyd-dirks-4SLz_RCk6kQ-unsplash.jpg) bottom; */
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 18, 50);
+  padding-top: 25px;
+  height: 4
+}
+
+.seat {
+  background-color: #444451;
+  height: 12px;
+  width: 15px;
+  margin: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 30px;
+  width: 35px;
+  background: #01163e;
+  border: 2px solid #314c81;
+  transition: all .2s ease;
+}
+
+.row {
+  display: flex;
+}
+.gold {
+  position: relative;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 2px;
+  color: #31d7a9;
+  font-size: 14px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+ .one {
+  border-color:#0c7453;
+  width: 40%;
+  
+}
+.two {
+  border-color:#0c7453;
+  width: 70%;
+}
+.movieList {
+  margin: 20px 0;
+}
+
+.movieList select {
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 13px;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.seat.selected {
+  background-color: #31d7a9;
+}
+
+.seat.taken {
+  background-color: white;
+}
+.information {
+  background-color: rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #777;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.information li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.screen {
+  
+    width: 500px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    transform: perspective(600px) rotateX(100deg);
+   margin-bottom: 20px;
+   box-shadow: 0 0px 1009px rgba(255, 255, 255, 1);
+  
+}
+
+.seat:not(.taken):hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.information .seat:not(.taken):hover {
+  cursor: default;
+  transform: scale(1);
+}
+ .gap {
+ margin-right: 30px;
+ }
+ .gapp {
+  margin-left: 30px;
+  }
+  
+  .text {
+    font-size: 1.5rem;
+    margin-left: -300px;
+    gap: 1rem;
+  }
+  .text span {
+    color: #31d7a9;
+    font-size: 2rem;
+    padding: 0.5rem;
+    padding-bottom: 2rem;
+  }
+
+

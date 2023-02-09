@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Ticket Website </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="movieList">
+    <label for="">Pick a movie:</label>
+    <select name="" id="list">
+      <option value="650">Parasite($650)</option>
+      <option value="850">Joker($850)</option>
+      <option value="550">Jumanji:Next Level($550)</option>
+      <option value="750">Dolittle($750)</option>
+    </select>
+  </div>
+
+  <ul class="information">
+    <li>
+      <div class="seat"></div>
+      <small>N/A</small>
+    </li>
+
+    <li>
+      <div class="seat selected"></div>
+      <small>Selected</small>
+    </li>
+
+    <li>
+      <div class="seat taken"></div>
+      <small>Occupied</small>
+    </li>
+  </ul>
+
+  <div class="container">
+    <div class="screen"></div>
+    <div class="row">
+      <div class="seat taken"></div>
+      <div class="seat gap"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat gapp"></div>
+      <div class="seat taken"></div>
+    </div>
+    <div class="row">
+      <div class="seat"></div>
+      <div class="seat gap"></div>
+      <div class="seat"></div>
+      <div class="seat "></div>
+      <div class="seat "></div>
+      <div class="seat"></div>
+      <div class="seat gapp"></div>
+      <div class="seat"></div>
+    </div>
+
+    <div class="row">
+      <div class="seat"></div>
+      <div class="seat gap"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat gapp"></div>
+      <div class="seat "></div>
+    </div>
+
+    <div class="row">
+      <div class="seat taken"></div>
+      <div class="seat gap"></div>
+      <div class="seat"></div>
+      <div class="seat taken"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat taken gapp"></div>
+      <div class="seat"></div>
+    </div>
+
+    <div class="row">
+      <div class="seat"></div>
+      <div class="seat gap"></div>
+      <div class="seat"></div>
+      <div class="seat "></div>
+      <div class="seat "></div>
+      <div class="seat"></div>
+      <div class="seat taken gapp"></div>
+      <div class="seat taken"></div>
+    </div> <br>
+    <div class="line">
+       <hr class="one">
+    <h5 class="gold">GOLD - ₹650</h5>
+    <hr class="two">
+    </div> <br>
+
+   
+
+    <div class="row">
+      <div class="seat"></div>
+      <div class="seat gap"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat "></div>
+      <div class="seat "></div>
+      <div class="seat gapp"></div>
+      <div class="seat"></div>
+    </div>
+    
+    <div class="row">
+      <div class="seat taken"></div>
+      <div class="seat gap"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat "></div>
+      <div class="seat "></div>
+      <div class="seat gapp"></div>
+      <div class="seat taken"></div>
+    </div><br>
+    <div class="line">
+      <hr class="one">
+   <h5 class="gold">DIAMOND - ₹850</h5>
+   <hr class="two">
+   </div> <br>
+  </div> 
+ 
+
+  <p class="text">
+    Selected Seats <span id="seats">0</span> <br>
+    Total Price ₹ <span id="price">0</span>  
+  </p>
+
+  
+</body>
+<script src="script.js"></script>
+</html>
